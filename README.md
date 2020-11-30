@@ -8,7 +8,7 @@ Github pour cela on aura besoin du paquet `{remotes}`:
 
 ``` r
 remotes::install_github("SebastienBoutry/diatomfrlake")
-library(diatomlakefr)
+library(diatomfrlake)
 ```
 
 ## Le paquet `{diatomfrlake}`
