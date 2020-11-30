@@ -197,8 +197,6 @@ formatting_data <- function(output_import) {
         CoordY <- sheet3[10, 8]
         photo <- sheet3[36, 7]
         Commentaires <- sheet3[28, 4]
-        tempsfin <- Sys.time()
-        tempsfin - tempsdep
       } else {
         departement <- sheet3[5, 4]
         nom_PE <- sheet3[6, 3]
