@@ -1,0 +1,30 @@
+Package: diatomfrlake
+Title: Data from the protocol to study diatoms in French lakes -WFD-
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Sebastien",
+           family = "Boutry",
+           role = c("aut", "cre"),
+           email = "sebastien.boutry@inrae.fr",
+           comment = c(ORCID = "0000-0001-8046-585X"))
+Description: Le package {diatomlakefr} permet de lire les fichiers issus du protocole d'échantillonnage pour l'étude des communautés de diatomées -benthos- dans les lacs français. Ce projet s'insère dans la Directive cadre européenne sur l'eau. Ces données permettent d'évaluer la qualité écologique du plan d'eau en calculant IBDL -Indice Biologique Diatomique en Lac-.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    magrittr,
+    dplyr,
+    base,
+    purrr,
+    tidyr,
+    xlsx,
+    readODS,
+    stringr,
+    lubridate
+Suggests: 
+    kableExtra,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

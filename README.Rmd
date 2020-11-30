@@ -1,0 +1,34 @@
+
+---
+bibliography: vignettes/bibliography.bib
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+
+## Installation de `{diatomfrlake}`
+
+La version du paquet `{diatomfrlake}` peut se télécharger via le site Github pour cela on aura besoin du paquet `{remotes}`: 
+
+```{r install, eval=FALSE}
+remotes::install_github("SebastienBoutry/diatomfrlake")
+library(diatomlakefr)
+```
+
+## L'objectif du paquet `{diatomfrlake}`
+
+Le paquet `{diatomfrlake}` sert à importer les données issus du protocole d'échantillonage [@Morin2018] dans le logiciel R et met en forme les données dans un format tableur.
+
+Afin de placer les unités d'observation potentielles, il est conseillé d'utiliser le paquet `{lakemetrics}` disponible sur github. 
+
+## References:
