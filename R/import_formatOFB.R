@@ -40,17 +40,17 @@ import_formatOFB <- function(file, repertoire = getwd(),sheet=1,select=""){
     Operateur <- sheet_ouput[17,2]
     NouvelleUO <- sheet_ouput[26,2]
     SubstratDur <- sheet_ouput[32,2]
-    ProfMaxDur <- sheet_ouput[34,2]
+    ProfMaxDur <- as.numeric(stringr::str_replace(sheet_ouput[34,2],",","."))
     NumInvSubstratDur <- sheet_ouput[31,2]
     SubstratVeg <- sheet_ouput[37,2]
-    ProfMaxVeg <- sheet_ouput[40,2]
+    ProfMaxVeg <- as.numeric(stringr::str_replace(sheet_ouput[40,2],",","."))
     NumInvSubstratVeg <- sheet_ouput[36,2]
-    Temp <- sheet_ouput[42,2]
+    Temp <- as.numeric(stringr::str_replace(sheet_ouput[42,2],",","."))
     O2dissous <- as.numeric(stringr::str_replace(sheet_ouput[43,2],",","."))
     Cond <- as.numeric(stringr::str_replace(sheet_ouput[44,2],",","."))
     ImpactHumains <- sheet_ouput[48,2]
     DistRive <- sheet_ouput[49,2]
-    SD<- as.numeric(stringr::str_replace(sheet_ouput[50,2],",","."))
+    SD <- as.numeric(stringr::str_replace(sheet_ouput[50,2],",","."))
     CoordX <- as.numeric(stringr::str_replace(sheet_ouput[22,2],",","."))
     NumUO <- sheet_ouput[27,2]
     Date <-  lubridate::as_date(ifelse(ods!="ods",
@@ -63,7 +63,7 @@ import_formatOFB <- function(file, repertoire = getwd(),sheet=1,select=""){
     PH <- as.numeric(stringr::str_replace(sheet_ouput[46,2],",","."))
     SDdeterminable <- as.numeric(stringr::str_replace(sheet_ouput[51,2],",","."))
     CodePE <- NA
-    SatO2 <- as.numeric(stringr::str_replace(sheet_ouput[44,2],",","."))
+    SatO2 <- as.numeric(stringr::str_replace(sheet_ouput[45,2],",","."))
     CoordY <-  as.numeric(stringr::str_replace(sheet_ouput[23,2],",","."))
     photo <- NA_character_ ## non renseigné
     Commentaires <- sheet_ouput[53,1]
