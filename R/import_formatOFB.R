@@ -46,12 +46,12 @@ import_formatOFB <- function(file, repertoire = getwd(),sheet=1,select=""){
     ProfMaxVeg <- sheet_ouput[40,2]
     NumInvSubstratVeg <- sheet_ouput[36,2]
     Temp <- sheet_ouput[42,2]
-    O2dissous <- sheet_ouput[43,2]
-    Cond <- sheet_ouput[44,2]
+    O2dissous <- as.numeric(stringr::str_replace(sheet_ouput[43,2],",","."))
+    Cond <- as.numeric(stringr::str_replace(sheet_ouput[44,2],",","."))
     ImpactHumains <- sheet_ouput[48,2]
     DistRive <- sheet_ouput[49,2]
-    SD<- sheet_ouput[50,2]
-    CoordX <- sheet_ouput[22,2]
+    SD<- as.numeric(stringr::str_replace(sheet_ouput[50,2],",","."))
+    CoordX <- as.numeric(stringr::str_replace(sheet_ouput[22,2],",","."))
     NumUO <- sheet_ouput[27,2]
     Date <-  lubridate::as_date(ifelse(ods!="ods",
                                        lubridate::as_date(as.numeric(sheet_ouput[11,2]), origin = "1899-12-30"),
@@ -60,11 +60,11 @@ import_formatOFB <- function(file, repertoire = getwd(),sheet=1,select=""){
     TypeUO <- str_extract(sheet_ouput[28,2],"[:digit:]")
     Colmatage <- sheet_ouput[33,2]
     NbrTige <- sheet_ouput[38,2]
-    PH <- sheet_ouput[46,2]
-    SDdeterminable <- sheet_ouput[51,2]
+    PH <- as.numeric(stringr::str_replace(sheet_ouput[46,2],",","."))
+    SDdeterminable <- as.numeric(stringr::str_replace(sheet_ouput[51,2],",","."))
     CodePE <- NA
-    SatO2 <- sheet_ouput[44,2]
-    CoordY <- sheet_ouput[23,2]
+    SatO2 <- as.numeric(stringr::str_replace(sheet_ouput[44,2],",","."))
+    CoordY <-  as.numeric(stringr::str_replace(sheet_ouput[23,2],",","."))
     photo <- NA_character_ ## non renseigné
     Commentaires <- sheet_ouput[53,1]
     NomLatin <- sheet_ouput[39,2]
