@@ -37,6 +37,21 @@ Afin de placer les unités d’observation potentielles, il est conseillé
 d’utiliser le paquet
 [`{lakemetrics}`](https://github.com/SebastienBoutry/diatomfrLake).
 
+## Contact
+
+<div align="center">
+
+   :e-mail:
+[Email](mailto:sebastien.boutry@inrae.fr)   \|   :speech\_balloon:
+[Twitter](https://twitter.com/SebBoutry)   \|   :necktie:
+[LinkedIn](https://www.linkedin.com/in/s%C3%A9bastien-boutry-4a77ba10/)
+
+<!--
+Quick Link
+-->
+
+</div>
+
 ## References:
 
 <div id="refs" class="references csl-bib-body hanging-indent">

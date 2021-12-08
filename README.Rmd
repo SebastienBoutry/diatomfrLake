@@ -45,4 +45,21 @@ Le package `{diatomfrlake}` sert à importer les données issus du protocole d'�
 
 Afin de placer les unités d'observation potentielles, il est conseillé d'utiliser le paquet [`{lakemetrics}`](https://github.com/SebastienBoutry/diatomfrLake). 
 
+
+## Contact
+
+<div align="center">
+
+&nbsp;&nbsp;&nbsp;:e-mail: [Email][Email]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;:speech_balloon: [Twitter][Twitter]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;:necktie: [LinkedIn][LinkedIn]
+
+<!--
+Quick Link
+-->
+[Twitter]:https://twitter.com/SebBoutry
+[LinkedIn]:https://www.linkedin.com/in/s%C3%A9bastien-boutry-4a77ba10/
+[Email]:mailto:sebastien.boutry@inrae.fr
+
+
+</div>
+
 ## References:
