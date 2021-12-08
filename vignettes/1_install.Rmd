@@ -31,18 +31,18 @@ remotes::install_github("SebastienBoutry/diatomfrlake")
 library(diatomfrlake)
 ```
 
-## Le paquet `{diatomfrlake}`
+## Le package `{diatomfrlake}`
 
 Le protocole d'échantillonage [@morin:hal-02594105] permet de suivre les communautés de diatomées en plan d'eau afin de répondre aux exigences de la Directive Cadre Européenne sur l'eau. Deux fichiers recueillent les données :
 
 - la flore dans un format .txt ou .prn directement du logiciel Omnidia [@Lecointe1993]
 - les données mésologiques dans un format tableur .ods ou .xls
 
-Le formulaire de saisie est téléchargeable sur le site [Hydrobio-DCE](https://hydrobio-dce.inrae.fr/) sous deux formats .ods ou .xls.
+Deux sources de "template" de fichiers de données sont disponibles [Hydrobio-DCE](https://hydrobio-dce.inrae.fr/) et [OFB](https://professionnels.ofb.fr/node/398). Il est conseillé d'utiliser ce dernier.
  
-Le paquet `{diatomfrlake}` sert à importer les deux fichiers dans le logiciel R et met en forme les données dans un format tableur. On y trouve plusieurs fonctions afin d'importer les données jusqu'à la mise en forme des données.
+Le package `{diatomfrlake}` sert à importer les deux fichiers dans le logiciel R et met en forme les données dans un format tableur. On y trouve plusieurs fonctions afin d'importer les données jusqu'à la mise en forme des données.
 
-Afin de placer les unités d'observation potentielles, il est conseillé d'utiliser le paquet `{lakemetrics}` disponible sur github. 
+Afin de placer les unités d'observation potentielles, il est conseillé d'utiliser le package `{lakemetrics}` disponible sur github. 
 
 ```{r install lakemetrics, eval=FALSE}
 remotes::install_github("SebastienBoutry/lakemetrics")

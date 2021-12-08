@@ -7,7 +7,7 @@
 formatting_data(output_import)
 }
 \arguments{
-\item{output_import}{objet de sortie de la fonction \code{\link{import_formualire}}}
+\item{output_import}{objet de sortie de la fonction \code{\link{import_formulaire}}}
 }
 \value{
 table rempli par les données mésologiques -objet data.frame-
