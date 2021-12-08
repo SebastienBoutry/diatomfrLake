@@ -24,16 +24,16 @@ knitr::opts_chunk$set(
 
 ## Installation de `{diatomfrlake}`
 
-La version du paquet `{diatomfrlake}` peut se télécharger via le site Github pour cela on aura besoin du paquet `{remotes}`: 
+La version du package `{diatomfrlake}` peut se télécharger via le site Github pour cela on aura besoin du package `{remotes}`: 
 
 ```{r install, eval=FALSE}
 remotes::install_github("SebastienBoutry/diatomfrlake")
-library(diatomlakefr)
+library(diatomfrlake)
 ```
 
 ## Le paquet `{diatomfrlake}`
 
-Le protocole d'échantillonage [@Morin2018] permet de suivre les communautés de diatomées en plan d'eau afin de répondre aux exigences de la Directive Cadre Européenne sur l'eau. Deux fichiers recueillent les données :
+Le protocole d'échantillonage [@morin:hal-02594105] permet de suivre les communautés de diatomées en plan d'eau afin de répondre aux exigences de la Directive Cadre Européenne sur l'eau. Deux fichiers recueillent les données :
 
 - la flore dans un format .txt ou .prn directement du logiciel Omnidia [@Lecointe1993]
 - les données mésologiques dans un format tableur .ods ou .xls

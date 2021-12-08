@@ -21,19 +21,28 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 
-## Installation de `{diatomfrlake}`
+# `{diatomfrlake}` <img src='man/figures/logo.png' align="right" height="139" />
 
-La version du paquet `{diatomfrlake}` peut se télécharger via le site Github pour cela on aura besoin du paquet `{remotes}`: 
+<!-- badges: start -->
+[![Lifecycle:experimental](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![packageversion](https://img.shields.io/badge/Package%20version-0.0.1-orange.svg?style=flat-square)](commits/master)
+[![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+<!-- [![R build status](https://github.com/SebastienBoutry/IBDL/workflows/R-CMD-check/badge.svg)](https://github.com/SebastienBoutry/IBDL/actions) -->
+<!-- badges: end -->
+
+## Installation
+
+La version du package `{diatomfrlake}` peut se télécharger via le site Github pour cela on aura besoin du paquet `{remotes}`: 
 
 ```{r install, eval=FALSE}
 remotes::install_github("SebastienBoutry/diatomfrlake")
-library(diatomlakefr)
+library(diatomfrlake)
 ```
 
 ## L'objectif du paquet `{diatomfrlake}`
 
-Le paquet `{diatomfrlake}` sert à importer les données issus du protocole d'échantillonage [@Morin2018] dans le logiciel R et met en forme les données dans un format tableur.
+Le package `{diatomfrlake}` sert à importer les données issus du protocole d'échantillonage [@morin:hal-02594105] dans le logiciel R et met en forme les données dans un format tableur. Les données doivent être au format format soit du site Hydro-DCE ou [OFB](https://professionnels.ofb.fr/node/398).
 
-Afin de placer les unités d'observation potentielles, il est conseillé d'utiliser le paquet `{lakemetrics}` disponible sur github. 
+Afin de placer les unités d'observation potentielles, il est conseillé d'utiliser le paquet [`{lakemetrics}`](https://github.com/SebastienBoutry/diatomfrLake). 
 
 ## References:
