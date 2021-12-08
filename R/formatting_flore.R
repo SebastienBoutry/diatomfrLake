@@ -16,8 +16,8 @@ formatting_flore <- function(flore){
                   "taxons"="V2",
                   "ab"="V3") %>%
     dplyr::mutate_at(dplyr::vars(id_florefloristique,taxons,fichier),as.character) %>%
-    dplyr::mutate_at(dplyr::vars(ab),as.numeric) %>%
-    dplyr::distinct()
+    dplyr::mutate_at(dplyr::vars(ab),as.numeric)# %>%
+    # dplyr::distinct()
   ####################################################
   vecsit<-c(which(flore$id_florefloristique!=""))
   vecsitIdFloristique<-c(which(flore$id_florefloristique!=""),nrow(flore))

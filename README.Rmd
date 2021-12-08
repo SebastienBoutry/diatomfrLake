@@ -16,6 +16,11 @@ knitr::opts_chunk$set(
 ```
 
 
+<!-- badges: start -->
+  [![R-CMD-check](https://github.com/SebastienBoutry/diatomfrLake/workflows/R-CMD-check/badge.svg)](https://github.com/SebastienBoutry/diatomfrLake/actions)
+<!-- badges: end -->
+
+
 ## Installation de `{diatomfrlake}`
 
 La version du paquet `{diatomfrlake}` peut se télécharger via le site Github pour cela on aura besoin du paquet `{remotes}`: 

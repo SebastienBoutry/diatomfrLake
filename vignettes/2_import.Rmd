@@ -8,7 +8,7 @@ output:
       - "style/inrae.css"
 bibliography: bibliography.bib
 vignette: >
-  %\VignetteIndexEntry{b_start}
+  %\VignetteIndexEntry{2 - Importation et mise en format tableau des données}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
   # csl: biomed-central.csl

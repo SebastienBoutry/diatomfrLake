@@ -1,6 +1,6 @@
 #' Mise en forme la feuille "Données générales" du formualire de saisie
 #'
-#' @param output_import objet de sortie de la fonction \code{\link{import_formualire}}
+#' @param output_import objet de sortie de la fonction \code{\link{import_formulaire}}
 #'
 #' @return table rempli par les données mésologiques -objet data.frame-
 #' @export
